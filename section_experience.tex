@@ -1,0 +1,87 @@
+% YAAC Another Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/yaac-another-awesome-cv
+%
+% Author:
+% Christophe Roger
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%Section: Work Experience at the top
+\sectionTitle{Experience}{\faSuitcase}
+%\renewcommand{\labelitemi}{$\bullet$}
+\begin{experiences}
+
+\experience
+{Oct 2022-Present}  {Data scientist I-II}{ROME Therapeutics}{Boston, MA}{3 years}{
+\begin{itemize}
+    \item Led biomarker discovery, integrating large-scale public databases to identify new therapeutic targets
+    \item Analyzed pre-clinical data from animal and cell models to generate clinical insights for MoA
+    \item Designed and deployed scalable NGS pipelines (WGS, RNA-seq, scRNA-seq) on GCP using nextflow
+    \item Built BigQuery databases and Streamlit apps to enable reproducible analysis and data visualization
+    \item Collaborated with Business Development to showcase data science platform with potential partners
+    \item Developed RAG-based LLM for disease and tissue relevant dataset mining in SRA
+    \end{itemize}
+}{}
+\experience
+{Aug 2022-Dec 2022} {AI teaching assistant}{AI4ALL}{Honolulu, HI}
+{5 months}{
+\begin{itemize}
+    \item Led AI lab sessions for hands-on activity using Python
+    \item Provided support to AI4ALL instructors during ethics classes
+\end{itemize}
+}{}
+\experience
+{Jul 2022-Oct 2022} {Postdoctoral Researcher}{Kewalo Marine Lab}{Honolulu, HI}
+{4 months}{
+\begin{itemize}
+    \item Developed computational pipelines for metagenomics data, including quality control, assembly, binning, and annotation
+    \item Performed statistical analysis of 16S sequencing data to identify community structure and ecological patterns
+    \end{itemize}
+}{}
+\experience
+{Aug 2017-Jul 2022}   {PhD Researcher \& Data Science Institute Fellow}{University of Hawai`i at Mānoa}{Honolulu, HI}
+{5 years} {
+Deep Learning PhD Research: \hfill \textsc{Computer Science department}
+\begin{itemize}
+    \item Developed CoCoNet, a deep contrastive learning method for viral metagenome binning (published)
+    {\github{Puumanamana/CoCoNet}}
+    \item Developed DeepImpute, a deep learning method for imputing missing values in single-cell RNA-seq data (published)\\
+    {\github{lanagarmire/deepimpute}}
+    \item Designed a clustering algorithm for viral communities based on genomics recombination patterns \\
+    {\github{Puumanamana/module-painter-rust}}
+\end{itemize}
+
+Applied data science (Hawai`i Data Science Fellow):
+\begin{itemize}
+    \item Developed scalable pipelines for metabarcoding sequencing data
+    \hfill\textsc{C-MAIKI Institute}\\
+    {\github{hawaiidatascience/metaflowmics}}
+    \item Conducted metagenomic virome analysis, from raw data \hfill \textsc{Center for Microbial Oceanography} \\
+    to assembly, annotation and interpretation (published)
+    \item Designed teaching modules for data wrangling in Python \hfill \textsc{C-MAIKI Institute}
+\end{itemize}
+}{}
+
+% \experience
+% {Sep-Dec 2021} {Teaching Assistant}{University of Hawaiʻi at Mānoa}{Honolulu, HI}
+% {4 months}    {
+%     Prepared and graded assignments, provided support during weekly TA hours
+%     \begin{itemize}
+%        \item ICS 235: Machine Learning Methods
+%        \item ICS 241: Discrete Math
+%     \end{itemize}
+% }{}
+
+\experience
+{Apr-Aug 2017}   {Bioinformatics Research Engineer}{Institute for Advanced Biosciences}{La Tronche, France}
+{5 months} {Conducted differential peak calling analyses of epigenetic data (ChIP-seq) to identify drivers of disease in lymphoblastic and mantle cell lymphoma cell lines
+}{}
+  
+\experience
+{Apr-Sep 2016}   {Bioinformatics Intern}{Sanofi Pasteur}{Marcy l'Etoile, France}
+{6 months} {Predicted influenza vaccine response through meta-analysis of gene expression data, applying penalized logistic models and batch-effect correction
+}{}
+
+\end{experiences}
